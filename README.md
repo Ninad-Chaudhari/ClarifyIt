@@ -7,7 +7,9 @@
 
 
 ---
-
+## Medium
+[Blog](https://medium.com/@ninadchaudharioffice/clarifyit-revolutionizing-student-feedback-with-ai-51195536e4e4)
+---
 ## Features
 - **Real-Time Feedback**: Instant analysis and feedback on student responses.
 - **Distractor Insights**: Explains why distractors are chosen and resolves misunderstandings.
