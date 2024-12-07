@@ -4,7 +4,7 @@ from cerebras.cloud.sdk import Cerebras
 from flask_cors import CORS
 
 # Initialize Cerebras client
-API = 'csk-48fr2xcet3jrmdc3tv3pntr8pw8vrvdemvxw8y3cmcfvktk4'
+API = '{Your Cerebras API KEY}'
 client = Cerebras(api_key=API)
 
 app = Flask(__name__)
