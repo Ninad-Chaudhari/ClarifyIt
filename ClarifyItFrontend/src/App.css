@@ -1,0 +1,43 @@
+/* General styles for the app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #1f1f1f; /* Slightly lighter background for header */
+  color: #ffffff;
+  border-bottom: 1px solid #333; /* Subtle border */
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.app {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Grid layout for student cards */
+.student-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center grid */
+  padding: 20px; /* Padding around the grid */
+}
+
+/* Bar chart container */
+.chart-container {
+  max-width: 800px;
+  margin: 20px auto; /* Center align and spacing */
+}
